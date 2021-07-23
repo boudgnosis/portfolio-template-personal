@@ -21,7 +21,9 @@ a {
 :root {
 	--dark-max: #212121;
 	--dark-medium: #404040;
+	--max-black: #000000;
 	--color-text: #EDF6E5;
+	--color-subtitle: #515151;
 }
 
 /* Nav Menu*/
@@ -54,3 +56,195 @@ a {
 .menu-opcion-nav li a:hover {
 	box-shadow: 0 2px 0 var(--color-text);
 }
+
+/* Home */
+.home {
+	position: absolute;
+	width: 100%;
+	top: 8rem;
+	text-align: center;
+}
+
+.home .name {
+	font-size: 9rem;
+	color: var(--color-text);
+	font-family: 'Calligraffitti', cursive;
+}
+
+.home .greaten {
+	color: var(--max-black);
+	position: relative;
+	top: 1rem;
+}
+
+.home .front-end {
+	position: relative;
+	top: -2.5rem;
+	color: var(--color-subtitle);
+}
+
+.cards-recent {
+	display: flex;
+	position: absolute;
+	width: 100%;
+	height: 16rem;
+	top: 25rem;
+	justify-content: center;
+}
+
+.cards-recent h2 {
+	position: absolute;
+	height: max-content;
+	color: var(--max-black);
+	box-shadow: 0 2px 0 var(--color-text);
+}
+
+.card-project-one-recent {
+	position: absolute;
+	width: 20%;
+	height: 20%;
+	top: 4.2rem;
+}
+
+.card-project-one-recent img {
+	position: absolute;
+	width: 100%;
+	opacity: .4;
+}
+
+.card-project-one-recent h4 {
+	position: absolute;
+	top: 7.5rem;
+	margin-left: 7px;
+	font-size: 12px;
+	color: var(--color-text);
+	box-shadow: 0 2px 0 var(--color-text);
+}
+
+.card-project-one-recent p {
+	position: absolute;
+	color: var(--color-text);
+	top: 9rem;
+	font-size: 10px;
+	margin-left: 5px;
+	width: 70%;
+}
+
+.card-project-one-recent .link-x {
+	position: absolute;
+	font-size: 17px;
+	top: 9.5rem;
+	left: 15.5rem;
+	color: var(--color-text);
+	cursor: pointer;
+}
+
+.card-project-one-recent .github-x {
+	position: absolute;
+	font-size: 20px;
+	left: 13.5rem;
+	top: 9.5rem;
+	color: var(--color-text);
+	cursor: pointer;
+}
+
+.card-project-two-recent {
+	position: absolute;
+	width: 20%;
+	height: 20%;
+	left: 14.5rem;
+	top: 4.2rem;
+}
+
+.card-project-two-recent img {
+	position: absolute;
+	width: 100%;
+	opacity: .4;
+}
+
+.card-project-two-recent h4 {
+	position: absolute;
+	top: 7.5rem;
+	margin-left: 7px;
+	font-size: 12px;
+	color: var(--color-text);
+	box-shadow: 0 2px 0 var(--color-text);
+}
+
+.card-project-two-recent p {
+	position: absolute;
+	color: var(--color-text);
+	top: 9rem;
+	font-size: 10px;
+	margin-left: 5px;
+	width: 70%;
+}
+
+.card-project-two-recent .link-x {
+	position: absolute;
+	font-size: 17px;
+	top: 9.5rem;
+	left: 15.5rem;
+	color: var(--color-text);
+	cursor: pointer;
+}
+
+.card-project-two-recent .github-x {
+	position: absolute;
+	font-size: 20px;
+	left: 13.5rem;
+	top: 9.5rem;
+	color: var(--color-text);
+	cursor: pointer;
+}
+
+.card-project-three-recent {
+	position: absolute;
+	width: 20%;
+	height: 20%;
+	left: 54rem;
+	top: 4.2rem;
+}
+
+.card-project-three-recent img {
+	position: absolute;
+	width: 100%;
+	opacity: .4;
+}
+
+.card-project-three-recent h4 {
+	position: absolute;
+	top: 7.5rem;
+	margin-left: 7px;
+	font-size: 12px;
+	color: var(--color-text);
+	box-shadow: 0 2px 0 var(--color-text);
+}
+
+.card-project-three-recent p {
+	position: absolute;
+	color: var(--color-text);
+	top: 9rem;
+	font-size: 10px;
+	margin-left: 5px;
+	width: 70%;
+}
+
+.card-project-three-recent .link-x {
+	position: absolute;
+	font-size: 17px;
+	top: 9.5rem;
+	left: 15.5rem;
+	color: var(--color-text);
+	cursor: pointer;
+}
+
+.card-project-three-recent .github-x {
+	position: absolute;
+	font-size: 20px;
+	left: 13.5rem;
+	top: 9.5rem;
+	color: var(--color-text);
+	cursor: pointer;
+}
+
