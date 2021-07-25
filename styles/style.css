@@ -106,96 +106,12 @@ a {
 	top: 4.2rem;
 }
 
-.card-project-one-recent img {
-	position: absolute;
-	width: 100%;
-	opacity: .4;
-}
-
-.card-project-one-recent h4 {
-	position: absolute;
-	top: 7.5rem;
-	margin-left: 7px;
-	font-size: 12px;
-	color: var(--color-text);
-	box-shadow: 0 2px 0 var(--color-text);
-}
-
-.card-project-one-recent p {
-	position: absolute;
-	color: var(--color-text);
-	top: 9rem;
-	font-size: 10px;
-	margin-left: 5px;
-	width: 70%;
-}
-
-.card-project-one-recent .link-x {
-	position: absolute;
-	font-size: 17px;
-	top: 9.5rem;
-	left: 15.5rem;
-	color: var(--color-text);
-	cursor: pointer;
-}
-
-.card-project-one-recent .github-x {
-	position: absolute;
-	font-size: 20px;
-	left: 13.5rem;
-	top: 9.5rem;
-	color: var(--color-text);
-	cursor: pointer;
-}
-
 .card-project-two-recent {
 	position: absolute;
 	width: 20%;
 	height: 20%;
 	left: 14.5rem;
 	top: 4.2rem;
-}
-
-.card-project-two-recent img {
-	position: absolute;
-	width: 100%;
-	opacity: .4;
-}
-
-.card-project-two-recent h4 {
-	position: absolute;
-	top: 7.5rem;
-	margin-left: 7px;
-	font-size: 12px;
-	color: var(--color-text);
-	box-shadow: 0 2px 0 var(--color-text);
-}
-
-.card-project-two-recent p {
-	position: absolute;
-	color: var(--color-text);
-	top: 9rem;
-	font-size: 10px;
-	margin-left: 5px;
-	width: 70%;
-}
-
-.card-project-two-recent .link-x {
-	position: absolute;
-	font-size: 17px;
-	top: 9.5rem;
-	left: 15.5rem;
-	color: var(--color-text);
-	cursor: pointer;
-}
-
-.card-project-two-recent .github-x {
-	position: absolute;
-	font-size: 20px;
-	left: 13.5rem;
-	top: 9.5rem;
-	color: var(--color-text);
-	cursor: pointer;
 }
 
 .card-project-three-recent {
@@ -206,13 +122,17 @@ a {
 	top: 4.2rem;
 }
 
+.card-project-one-recent img,
+.card-project-two-recent img,
 .card-project-three-recent img {
 	position: absolute;
 	width: 100%;
 	opacity: .4;
 }
 
-.card-project-three-recent h4 {
+.card-project-one-recent h4,
+.card-project-two-recent h4,
+.card-project-three-recent h4  {
 	position: absolute;
 	top: 7.5rem;
 	margin-left: 7px;
@@ -221,6 +141,8 @@ a {
 	box-shadow: 0 2px 0 var(--color-text);
 }
 
+.card-project-one-recent p,
+.card-project-two-recent p,
 .card-project-three-recent p {
 	position: absolute;
 	color: var(--color-text);
@@ -230,6 +152,8 @@ a {
 	width: 70%;
 }
 
+.card-project-one-recent .link-x,
+.card-project-two-recent .link-x,
 .card-project-three-recent .link-x {
 	position: absolute;
 	font-size: 17px;
@@ -239,6 +163,8 @@ a {
 	cursor: pointer;
 }
 
+.card-project-one-recent .github-x,
+.card-project-two-recent .github-x,
 .card-project-three-recent .github-x {
 	position: absolute;
 	font-size: 20px;
@@ -277,49 +203,6 @@ a {
 
 }
 
-.container-projects .card-project-one:hover {
-	transform: scale(1.1);
-}
-
-.card-project-one img {
-	width: 100%;
-	height: 100%;
-	opacity: .4;
-}
-
-.card-project-one .title-card-pro {
-	position: absolute;
-	font-size: 2.5rem;
-	color: var(--color-text);
-	top: 13rem;
-	margin-left: 7px;
-	box-shadow: 0 2px 0 var(--color-text);
-	
-}
-
-.card-project-one p {
-	position: absolute;
-	width: 80%;
-	top: 17.5rem;
-	font-size: 15px;
-	margin-left: 7px;
-	text-align: justify;
-	color: var(--color-text)
-}
-
-.card-project-one i {
-	position: absolute;
-	color: var(--color-text);
-	font-size: 2rem;
-	left: 27rem;
-	top: 20.5rem;
-	cursor: pointer;
-}
-
-.card-project-one .link-gith{
-	top: 17.5rem;
-}
-
 .container-projects .card-project-two {
 	display: flex;
 	position: absolute;
@@ -330,16 +213,19 @@ a {
 
 }
 
+.container-projects .card-project-one:hover,
 .container-projects .card-project-two:hover {
 	transform: scale(1.1);
 }
 
+.card-project-one img,
 .card-project-two img {
 	width: 100%;
 	height: 100%;
 	opacity: .4;
 }
 
+.card-project-one .title-card-pro,
 .card-project-two .title-card-pro {
 	position: absolute;
 	font-size: 2.5rem;
@@ -350,6 +236,7 @@ a {
 	
 }
 
+.card-project-one p,
 .card-project-two p {
 	position: absolute;
 	width: 80%;
@@ -360,6 +247,7 @@ a {
 	color: var(--color-text)
 }
 
+.card-project-one i,
 .card-project-two i {
 	position: absolute;
 	color: var(--color-text);
@@ -369,6 +257,7 @@ a {
 	cursor: pointer;
 }
 
+.card-project-one .link-gith,
 .card-project-two .link-gith{
 	top: 17.5rem;
 }
