@@ -294,16 +294,14 @@ a {
 .about-me {
 	position: absolute;
 	display: flex;
-	border: 1px red solid;
 	width: 100%;
 	height: 485px;
-	top: 108rem;
+	top: 107.5rem;
 	justify-content: center;
 }
 
 .about-me .title {
 	position: absolute;
-	border: 1px solid red;	
 	height: max-content;
 	width: 100%;
 	font-size: 2rem;
@@ -334,4 +332,63 @@ a {
 	width: 90%;
 	text-align: justify;
 	color: var(--color-text);
+}
+
+.section-contac-about h3 {
+	position: absolute;
+	left: 8rem;
+	top: 13rem;
+	font-size: 24px;
+}
+
+.option-contact {
+	display: flex;
+	position: absolute;
+	left: 2.5%;
+	top: 16rem;
+	background: var(--dark-max);
+	border-radius: 1rem;
+	width: 23%;
+	height: 40%;
+	align-items: center;
+	justify-content: center;
+}
+
+.option-contact a {
+	color: var(--color-text);
+	font-size: 3rem;
+	margin: 10px;
+}
+
+.skils h3 {
+	position: absolute;
+	left: 80.5%;
+	top: 13rem;
+	font-size: 24px;	
+}
+
+.skill-and-tecnologys {
+	display: flex;
+	position: absolute;
+	left: 74.5%;
+	top: 16rem;
+	background: var(--dark-max);
+	border-radius: 1rem;
+	width: 23%;
+	height: 40%;
+	align-items: center;
+	justify-content: center;
+}
+
+.skill-and-tecnologys i{
+	color: var(--color-text);
+	margin: 10px;
+	font-size: 2rem;
+}
+
+.skill-and-tecnologys img {
+	background-color: var(--color-text);
+	border-radius: 8px;
+	width: 2rem;
+	margin: 10px;
 }
