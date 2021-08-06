@@ -392,3 +392,40 @@ a {
 	width: 2rem;
 	margin: 10px;
 }
+
+/* Footer */
+
+.footer {
+	position: absolute;
+	background: var(--dark-max);
+	padding: 30px 0;
+	top: 140rem;
+	width: 100%;
+}
+
+.container {
+	max-width: 1290px;
+	height: 160px;
+	margin: auto;
+	border: 1px  red solid;
+}
+
+.footer-col h4 {
+	font-size: 1.5rem;
+	margin-left: 5px;
+}
+
+.footer-col li a {
+	margin-left: 5px;
+	color: var(--color-text);
+}
+
+.footer-col-contact {
+	position: absolute;
+	left: 10rem;
+	top: 2rem;
+}
+
+.footer-col-contact h4 {
+	font-size: 1.5rem;
+}
