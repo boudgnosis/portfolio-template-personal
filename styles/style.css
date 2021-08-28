@@ -67,150 +67,162 @@ a {
 
 .home .name {
 	font-size: 9rem;
-	color: var(--color-text);
+	color: var(--max-black);
 	font-family: 'Calligraffitti', cursive;
 }
 
 .home .greaten {
-	color: var(--max-black);
+	color: var(--color-text);
 	position: relative;
 	top: 1rem;
 }
 
 .home .front-end {
 	position: relative;
-	top: -2.5rem;
-	color: var(--color-subtitle);
+	top: -3rem;
+	color: var(--max-black);
 }
 
-.cards-recent {
+.jobs-recent {
+	position: relative;
+	color: var(--color-text);
+	top: -1rem;
+}
+
+.container-jobs-rently {
+	position: relative;
+	width: 1100px;
+	top: 27rem;
+	margin: auto;
 	display: flex;
-	position: absolute;
-	width: 100%;
-	height: 16rem;
-	top: 25rem;
 	justify-content: center;
 }
 
-.cards-recent h2 {
-	position: absolute;
-	height: max-content;
-	color: var(--max-black);
-	box-shadow: 0 2px 0 var(--color-text);
+.tarjeta-wrap {
+	margin: 15px;
+	-webkit-perspective: 800;
+	perspective: 800;
 }
 
-.card-project-one-recent {
-	position: absolute;
-	width: 20%;
-	height: 20%;
-	top: 4.2rem;
+.tarjeta {
+	width: 300px;
+	height: 200px;
+	background: var(--dark-max);
+	position: relative;
+	transform-style: preserve-3d;
+	transition: .7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	-moz-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65); 
 }
 
-.card-project-two-recent {
-	position: absolute;
-	width: 20%;
-	height: 20%;
-	left: 14.5rem;
-	top: 4.2rem;
-}
-
-.card-project-three-recent {
-	position: absolute;
-	width: 20%;
-	height: 20%;
-	left: 54rem;
-	top: 4.2rem;
-}
-
-.card-project-one-recent img,
-.card-project-two-recent img,
-.card-project-three-recent img {
-	position: absolute;
+.adelante, .atras {
 	width: 100%;
-	opacity: .4;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 
-.card-project-one-recent h4,
-.card-project-two-recent h4,
-.card-project-three-recent h4  {
-	position: absolute;
-	top: 7.5rem;
-	margin-left: 7px;
-	font-size: 12px;
-	color: var(--color-text);
-	box-shadow: 0 2px 0 var(--color-text);
+.adelante {
+	width: 100%;
 }
 
-.card-project-one-recent p,
-.card-project-two-recent p,
-.card-project-three-recent p {
-	position: absolute;
-	color: var(--color-text);
+.nombre {
+	position: relative;
 	top: 9rem;
-	font-size: 10px;
-	margin-left: 5px;
-	width: 70%;
+	left: .7rem;
+	color: var(--max-black);
+	font-size: 2rem;
 }
 
-.card-project-one-recent .link-x,
-.card-project-two-recent .link-x,
-.card-project-three-recent .link-x {
-	position: absolute;
-	font-size: 17px;
-	top: 9.5rem;
-	left: 15.5rem;
-	color: var(--color-text);
-	cursor: pointer;
+.atras {
+	transform: rotateY(180deg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-family: "open sans";
 }
 
-.card-project-one-recent .github-x,
-.card-project-two-recent .github-x,
-.card-project-three-recent .github-x {
+.atras p{
 	position: absolute;
-	font-size: 20px;
-	left: 13.5rem;
-	top: 9.5rem;
-	color: var(--color-text);
+	top: 1rem;
+	text-align: center;
+}
+
+.atras-links {
+	position: relative;
+	top: 5rem;
+	left: 9rem;
+	padding-left: 7px ;
 	cursor: pointer;
+	font-size: 1.2rem;
+}
+
+.tecnology-cards-r {
+	position: relative;
+	top: 5rem;
+	left: -8rem;
+	padding-left: 7px;
+	font-size: 1.2rem;
+}
+
+.tarjeta-wrap:hover .tarjeta{
+	transform: rotateY(180deg);
+}
+
+.card {
+	background-image: url(../img/construction.jpg);
+	background-size: cover;
 }
 
 /* Menu lateral*/
 .menu-left a {
 	position: fixed;
-	left: 81rem;
-	top: 38rem;
+	left: 80.8rem;
 	text-decoration: none;
 	z-index: 50;
 }
 
+#fixed-contac-lateral .instagram {
+	top: 17rem;
+}
+
+.instagram:hover {
+	color: #E1306C;
+}
+
+#fixed-contac-lateral .twiter {
+	top: 20rem;
+}
+
+.twiter:hover {
+	color: #00acee;
+}
+
 #fixed-contac-lateral .github {
-	top: 32rem;
+	top: 23rem;
+}
+
+.github:hover {
+	color: #c9510c;
 }
 
 #fixed-contac-lateral .linkedin {
-	top: 35rem;
+	top: 26rem;
 }
 
-#fixed-contac-lateral .email {
-	top: 38rem;
+.linkedin:hover {
+	color: #0e76a8;
 }
 
-.email i {
+.menu-fixed-p {
 	display: inline;
 	color: var(--color-text);
 	font-size: 40px;
-}
-
-.github i {
-	display: inline;
-	color: var(--color-text);
-	font-size: 40px;
-}
-
-.linkedin i {
-	display: inline;
-	color: var(--color-text);
-	font-size: 41px;
 }
 
 /* Projects */
@@ -349,9 +361,8 @@ a {
 
 .about-me .img img {
 	position: relative;
-	width: 250px;
-	border-radius: 48%;
-	top: 3.3rem;
+	width: 200px;
+	top: 2.3rem;
 }
 
 .about-text {
@@ -485,4 +496,23 @@ a {
 	position: absolute;
 	margin-left: 27rem;
 	top: 2rem;
+}
+
+.frase {
+	max-width: max-content;
+	position: absolute;
+	left: 45rem;
+	top: 4.5rem;
+	border: 1px solid purple;
+}
+
+
+.frase-style {
+	color: var(--color-text);
+	font-family: 'Calligraffitti', cursive;
+}
+
+.frase-p {
+	font: 700;
+	font-size: 2rem;
 }
